@@ -5,7 +5,7 @@ from PIL import ImageGrab
 import time
 
 
-df = pd.read_excel(".\高三1班学生名单.xlsx",skiprows=1)
+df = pd.read_excel(".\名单.xlsx",skiprows=1)
 data_list = df.values.tolist()
 print("已经读取了数据")
 rn.shuffle(data_list)
